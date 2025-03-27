@@ -37,10 +37,10 @@ This Library Management System is designed to help librarians manage books effec
 
 ## Code Explanation
 
-## `Book.java`
+**`Book.java`**
 This class defines the book's properties such as Book ID, Title, Author, Genre, and Availability Status. It also provides getter and setter methods and overrides the `toString` method to format the book information when printed.
 
-## `LibraryManagementSystem.java`
+**`LibraryManagementSystem.java`**
 This class is the main application logic that handles the following functionalities:
 - Adding a new book to the library.
 - Viewing all books stored in the library.
@@ -48,14 +48,14 @@ This class is the main application logic that handles the following functionalit
 - Updating book details.
 - Deleting a book from the catalog.
 
-## `Main.java`
+**`Main.java`**
 - Handling user inputs through a console-based menu system.
 
-## Challenges Faced:
+**`Challenges Faced:`**
 - Ensuring that the book ID is unique and validating user input to avoid errors.
 - Keeping the code modular and easy to maintain as the system grows.
 
-## Improvements:
+**`Improvements:`**
 - Add persistent storage (e.g., database) instead of using in-memory data structures.
 - Implement a graphical user interface (GUI) for better usability.
 - Add more features like tracking borrowed dates or categorizing books.
